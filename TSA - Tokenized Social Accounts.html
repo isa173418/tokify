@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://tokify.ct.ws/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="icon" href="https://tokify.ct.ws/*/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSA - Tokenized Social Accounts</title>
+  <link href="./TSA - Tokenized Social Accounts_files/css2" rel="stylesheet">
+  <style>
+    /* Основные стили */
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #0e0b29, #3d1b6e);
+      color: #ffffff;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Анимация фона частиц */
+    #particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: transparent;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(90deg, #ff9800, #e91e63);
+      animation: gradientShift 8s infinite alternate;
+      color: white;
+    }
+
+    @keyframes gradientShift {
+      0% { background: linear-gradient(90deg, #ff9800, #e91e63); }
+      100% { background: linear-gradient(90deg, #3f51b5, #009688); }
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.6rem;
+      margin-top: 1rem;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .block {
+      margin-bottom: 2.5rem;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transform: perspective(800px) rotateX(10deg);
+      transition: transform 0.5s, box-shadow 0.5s;
+    }
+
+    .block:hover {
+      transform: perspective(800px) rotateX(0deg) scale(1.05);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .block h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .block p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      background: linear-gradient(90deg, #e91e63, #3f51b5);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-5px) scale(1.1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      color: #ffffff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .block {
+      animation: fadeIn 1.5s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <!-- Частицы -->
+  <div id="particles"><canvas class="particles-js-canvas-el" width="1249" height="876" style="width: 100%; height: 100%;"></canvas></div>
+
+  <header>
+    <h1>TSA - Tokenized Social Accounts</h1>
+    <p>Revolutionizing Social Media Through Blockchain Technology</p>
+  </header>
+
+  <div class="container">
+    <div class="block">
+      <h2>What is TSA?</h2>
+      <p>TSA allows influencers to tokenize their accounts, enabling a new level of engagement and monetization. Users can support their favorite creators while enjoying exclusive benefits and opportunities.</p>
+    </div>
+
+    <div class="block">
+      <h2>Why Buy Tokens?</h2>
+      <p>Purchasing tokens provides access to exclusive content, account growth participation, and the ability to trade tokens for real-world value through our platform's integration with crypto exchanges.</p>
+    </div>
+
+    <div class="block">
+      <h2>Support the Project</h2>
+      <p>Join the TSA revolution by purchasing tokens and investing in the future of social media. Click below to get started!</p>
+      <a href="https://tokify.ct.ws/#" class="cta-button">Support the Project</a>
+    </div>
+
+    <div class="block">
+      <h2>Exchange Tokens for Real Money</h2>
+      <p>Users who own tokens can exchange them for real money through our blockchain-powered trading system. TSA combines the best of blockchain technology with social media engagement!</p>
+    </div>
+  </div>
+
+  
+    <footer>
+  <p>© 2025 TSA. All Rights Reserved.</p>
+  <p>
+    <a href="https://twitter.com/i7a3418" target="_blank" style="text-decoration: none;">
+      <img src="./TSA - Tokenized Social Accounts_files/733579.png" alt="Twitter" style="width: 32px; height: 32px; vertical-align: middle;">
+      <span style="color: #ffffff; font-size: 1.2rem; margin-left: 0.5rem;">Follow us on Twitter</span>
+    </a>
+  </p>
+</footer>
+
+  
+
+  <!-- Скрипт частиц -->
+  <script src="./TSA - Tokenized Social Accounts_files/particles.min.js"></script>
+  <script>
+    particlesJS("particles", {
+      particles: {
+        number: { value: 80, density: { enable: true, value_area: 800 } },
+        color: { value: "#ffffff" },
+        shape: {
+          type: "circle",
+          stroke: { width: 0, color: "#000000" },
+          polygon: { nb_sides: 5 },
+        },
+        opacity: { value: 0.5, random: false },
+        size: { value: 5, random: true },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1,
+        },
+        move: {
+          enable: true,
+          speed: 6,
+          direction: "none",
+          random: false,
+          straight: false,
+          out_mode: "out",
+          bounce: false,
+          attract: { enable: false },
+        },
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" },
+          resize: true,
+        },
+        modes: {
+          grab: { distance: 400, line_linked: { opacity: 1 } },
+          bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+          repulse: { distance: 200 },
+          push: { particles_nb: 4 },
+          remove: { particles_nb: 2 },
+        },
+      },
+      retina_detect: true,
+    });
+  </script>
+
+
+</body></html>
